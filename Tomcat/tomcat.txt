@@ -1,0 +1,26 @@
+What is Tomcat? 
+
+Tomcat is an open-source web server and servlet. 
+The Apache Software Foundation has developed it.
+It is used widely for hosting Java-based applications on the web.
+Tomcat acts as a bridge between web servers and Java-based applications, facilitating the execution of dynamic content and processing client requests.
+Tomcat offers a lightweight and efficient solution for hosting Java web applications.
+Tomcat is popular for several reasons.
+Its scalability is admired by many. Tomcat's robustness is useful. 
+It has great community support which brings relief to the users. 
+With its modular architecture and adherence to industry standards, Tomcat enables developers to build and deploy web applications with ease.
+
+
+How Does Tomcat Work? 
+
+Tomcat follows a modular architecture comprising connectors, containers, and the Catalina Servlet container. 
+This architecture enables Tomcat to efficiently handle client requests and generate responses.
+Connectors are in charge of accepting and processing requests that the clients sent to Tomcat. 
+In order to have a connection with the client, different protocols are used by the connectors. 
+These connectors can be HTTP or HTTPS. 
+They handle tasks like connection management, request parsing, and data transmission.
+Once a request is received, connectors pass it to the appropriate container based on the requested URL. 
+Containers manage the lifecycle of web applications and execute Java servlets or JSP code to generate responses.
+They provide an environment for running web applications, managing resources, and handling concurrent requests.
+The Catalina Servlet container, in particular, is responsible for mapping requests to the appropriate servlet and managing the servlet's life cycle. 
+It handles the process of generating dynamic content by executing servlet code and producing the response that is sent back to the client.
